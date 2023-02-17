@@ -1,2 +1,1 @@
-# PrivateOrPublic
-大学名を国立私立公立に分類するWebアプリ
+# public_private
