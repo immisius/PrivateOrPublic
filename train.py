@@ -219,7 +219,7 @@ print("Done!")
 # In[46]:
 
 
-torch.save(model,'10.pt')
+torch.save(model,'model.pt')
 
 
 # In[41]:

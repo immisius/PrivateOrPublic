@@ -11,7 +11,7 @@ st.markdown("# 国立？公立？私立？")
 st.text_input("大学名", key='input',value='東京大学')
 
 name=st.session_state['input']
-model=torch.load('10.pt')
+model=torch.load('model.pt')
 with torch.no_grad():
     print(tokenizer.tokenize(name))
     out=(model(torch.tensor(tokenizer(name)['input_ids']).unsqueeze(0)).logits)
