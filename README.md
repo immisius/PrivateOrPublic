@@ -16,3 +16,7 @@ python train.py
 streamlit run app.py
 ```
 
+### Details
+Web app Frameworkとして[Streamlit](https://streamlit.io/)を用いています。
+
+事前学習済みBERT([東北大](https://huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking))を分類モデルにファインチューニングしています。
